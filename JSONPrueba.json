@@ -1,0 +1,117 @@
+{
+  "bateria": 100,
+  "cantMaxTransporte": 10,
+  "factorConsumo": 1,
+  "radioCobertura": 50,
+  "capacidad": 100,
+  "robopuertos": [
+    {
+      "x": 10,
+      "y": 5,
+      "contadorRobots": 10
+    },
+    {
+      "x": 30,
+      "y": 5,
+      "contadorRobots": 10
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "contadorRobots": 10
+    }
+  ],
+  "cofres": [
+    {
+      "tipo": "CofreDeSolicitud",
+      "x": 5,
+      "y": 5,
+      "items": [
+        {
+          "nombre": "cobre",
+          "cant": 5
+        }
+      ]
+    },
+    {
+      "tipo": "CofreDeAlmacenamiento",
+      "x": 80,
+      "y": 80,
+      "items": [
+        {
+          "nombre": "cobre",
+          "cant": 5
+        }
+      ]
+    },
+    {
+      "tipo": "CofreDeProvisiónActiva",
+      "x": 10,
+      "y": 25,
+      "items": [
+        {
+          "nombre": "acero",
+          "cant": 15
+        },
+        {
+          "nombre": "cobre",
+          "cant": 5
+        },
+        {
+          "nombre": "metal",
+          "cant": 20
+        },
+        {
+          "nombre": "carbon",
+          "cant": 5
+        },
+        {
+          "nombre": "madera",
+          "cant": 50
+        }
+      ]
+    },
+    {
+      "tipo": "CofreDeProvisiónPasiva",
+      "x": 50,
+      "y": 50,
+      "items": [
+        {
+          "nombre": "acero",
+          "cant": 15
+        },
+        {
+          "nombre": "cobre",
+          "cant": 15
+        },
+        {
+          "nombre": "metal",
+          "cant": 20
+        },
+        {
+          "nombre": "cobre",
+          "cant": 5
+        }
+      ]
+    },
+    {
+      "tipo": "CofreIntermedioBufer",
+      "x": 0,
+      "y": 0,
+      "items": []
+    }
+  ],
+  "solicitudes": [
+    {
+      "tipo": "CofreDeSolicitud",
+      "x": 10,
+      "y": 5,
+      "items": [
+        {
+          "nombre": "cobre",
+          "cant": 5
+        }
+      ]
+    }
+  ]
+}
